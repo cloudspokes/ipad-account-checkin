@@ -1,0 +1,13 @@
+iPad Account Checkin App for Salesforce.com
+
+URL: http://www.cloudspokes.com/challenge_detail.html?contestID=178
+Blog: http://blog.cloudspokes.com/2011/05/checkin-in-our-ipad-challenge-winners.html
+Challenge end date: Mon May 09 03:00:00 GMT 2011
+
+Description
+===========
+<p>Create an iPad app to allow users to “find” and “checkin” to nearby salesforce.com accounts.</p>
+
+Requirements
+============
+<p>Create an iPad app with the following functionality:</p> <p>When the application loads, it initially displays a white splash screen with the salesforce.com logo and the text “Salesforce.com Account Checkin”.</p> <p>The user must authenticate to salesforce.com using OAuth.</p> <p>Once logged in, the search screen displays, “Find Nearby Accounts” and provides the user with the ability to determine a search radius (i.e., 5 Miles, 25 KM). The search uses the iPad’s current geo location and searches salesforce.com for accounts located within the selected radius. Results are returned in a table with the account name, address and distance away. The closest accounts should appear at the top.</p> <p>Selecting an account will display the details of the account (name, address, description, industry, phone and type), list of related open opportunities (opportunity name, amount, stage, close date) and a list of related open activities (subject, name, due date, status, priority, assigned to). The user will not be able to select an opportunity or activity for additional info. <strong>Note: extra credit for displaying a Google map with directions from the user’s current location to the selected account.</strong></p> <p>Provide the user with a “Checkin” button that pops up a new dialog where the user can enter the details of the checkin (subject and comments) to be recorded as a completed activity. The checkin should also set the following automatically for the completed activity: AssignedTo is the current user, IsRecurrence = false, IsReminderSet = false, Status = Completed, Type = Meeting. After submission, the user will receive some type of notification that the checkin was successful.</p>
